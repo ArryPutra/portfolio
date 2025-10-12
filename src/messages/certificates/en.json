@@ -1,0 +1,31 @@
+{
+    "title": {
+        "part_1": "My",
+        "part_2": " Work"
+    },
+    "desc": "This collection of certifications proves that I am capable of working optimally in my field, with strong dedication, solid competence, and a determination to excel.",
+    "cards": [
+        {
+            "url_img": "/certificates/bankkalsel.jpg",
+            "alt": "Bank Kalsel Certificate",
+            "title": "1st Place: WCC 2024 Competition, Bank Kalsel",
+            "desc": "In this competition, I utilized the Laravel framework and TailwindCSS to build a website. The main factor determining victory was the speed of development, while ensuring that all system features functioned optimally during the presentation.",
+            "source": "https://www.hallobanua.com/2024/12/bank-kalsel-gelar-web-coding.html"
+        },
+        {
+            "url_img": "/certificates/bangkit.jpg",
+            "alt": "Bangkit Academy Certificate",
+            "title": "Mobile Development Training - Bangkit Academy 2024 by Google",
+            "desc": "The MSIB Kampus Merdeka program in Mobile Development (Kotlin, Android Studio) focuses on application design, soft skills, and developing application projects that integrate Machine Learning and Cloud Computing.",
+            "source": "https://github.com/Teran-Capstone-Project"
+        },
+        {
+            "url_img": "/certificates/ibac.jpg",
+            "alt": "IBAC Web Design Certificate",
+            "title": "Participant of the International Web Design Competition - IBAC",
+            "desc": "In this competition, I designed a website based on challenges that differed for each participant. Each participant had to solve problems and provide solutions in the form of a website design within a limited time.",
+            "source": "https://poliban.ac.id/cetak-sejarah-baru-poliban-rebut-gelar-juara-umum-ibac-ke-10/"
+        }
+    ],
+    "view_source": "View Source"
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "part_1": "Hello",
+        "part_2": ", I'm👋"
+    },
+    "desc": "Focus on developing a system that is clean, well-structured, and easy for the team to manage in the future.",
+    "download_cv": "Download CV",
+    "hire_me": "Hire Me",
+    "made_with_nextjs": "Made with Next.js 15"
+}

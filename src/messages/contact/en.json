@@ -1,0 +1,13 @@
+{
+    "title": {
+        "part_1": "Contact",
+        "part_2": " Me"
+    },
+    "desc": "Please contact me, I will be very happy to chat with you.",
+    "send": "Send",
+    "sending": "Sending...",
+    "sent": "Sent!",
+    "not_sent": "Not sent!",
+    "message_sent_successfully": "Message sent successfully.",
+    "an_error": "An error occurred, please try again."
+}

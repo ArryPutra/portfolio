@@ -1,0 +1,13 @@
+{
+    "title": {
+        "part_1": "Kontak",
+        "part_2": " Saya"
+    },
+    "desc": "Silakan hubungi saya, saya akan sangat senang bisa bercakap dengan Anda.",
+    "send": "Kirim",
+    "sending": "Mengirim...",
+    "sent": "Terkirim!",
+    "not_sent": "Tidak terkirim!",
+    "message_sent_successfully": "Pesan berhasil dikirim.",
+    "an_error": "Terjadi kesalahan, coba lagi."
+}

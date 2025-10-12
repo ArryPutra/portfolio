@@ -1,0 +1,18 @@
+{
+    "title": {
+        "part_1": "Work",
+        "part_2": " Experience"
+    },
+    "desc": "With the skills I possess, I have work experience relevant to my field of expertise.",
+    "work": {
+        "work_1": {
+            "place": "Dinas Komunikasi dan Informatika Provinsi Kalimantan Selatan",
+            "work_type": "Intern",
+            "position": "Web Developer",
+            "desc": "Development of a web-based information security evaluation and monitoring system for regional government agencies in South Kalimantan, utilizing Laravel, Tailwind CSS, and Alpine.js during an internship at the Department of Communication and Informatics of South Kalimantan Province.",
+            "start": "2024-09",
+            "end": "2025-01"
+        }
+    },
+    "months": "Months"
+}

@@ -1,0 +1,60 @@
+{
+    "title": {
+        "part_1": "Karya",
+        "part_2": " Saya"
+    },
+    "desc": "Kumpulan proyek yang telah saya kembangkan selama bertahun-tahun dengan berbagai teknologi, sebagai bukti kemampuan saya dalam menguasai beragam tools serta beradaptasi dengan lingkungan yang dinamis.",
+    "all": "Semua",
+    "web": "Web",
+    "app": "App",
+    "cards": [
+        {
+            "url_img": "/projects/indekskami.jpg",
+            "title": "Website Evaluasi Indeks KAMI",
+            "desc": "Sistem untuk melakukan evaluasi indeks keamanan informasi pada suatu instansi di pemerintahan Kalimantan Selatan.",
+            "type": "website",
+            "technologies": [
+                {
+                    "name": "Laravel",
+                    "url_img": "/icons/laravel.svg"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "url_img": "/icons/tailwindcss.svg"
+                }
+            ]
+        },
+        {
+            "url_img": "/projects/qrcode.jpg",
+            "title": "QR Code Scanner & Generator",
+            "desc": "Sistem untuk melakukan evaluasi indeks keamanan informasi pada suatu instansi di pemerintahan Kalimantan Selatan.",
+            "type": "app",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "url_img": "/icons/flutter.svg"
+                },
+                {
+                    "name": "Dart",
+                    "url_img": "/icons/dart.svg"
+                }
+            ]
+        },
+        {
+            "url_img": "/projects/teran.jpg",
+            "title": "Aplikasi Teran: Mental Health",
+            "desc": "Aplikasi yang membantu Anda berbagi cerita, melihat probabilitas stres, dan mencatat jurnal kehidupan Anda.",
+            "type": "app",
+            "technologies": [
+                {
+                    "name": "Kotlin",
+                    "url_img": "/icons/kotlin.svg"
+                },
+                {
+                    "name": "Android",
+                    "url_img": "/icons/android.svg"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "title": {
+        "part_1": "My",
+        "part_2": " Projects"
+    },
+    "desc": "A collection of projects I have developed over the years using various technologies, serving as proof of my ability to master diverse tools and adapt to dynamic environments.",
+    "all": "All",
+    "web": "Web",
+    "app": "App",
+    "cards": [
+        {
+            "url_img": "/projects/indekskami.jpg",
+            "title": "KAMI Index Evaluation Website",
+            "desc": "A system used to evaluate the information security index of government institutions in South Kalimantan.",
+            "type": "website",
+            "technologies": [
+                {
+                    "name": "Laravel",
+                    "url_img": "/icons/laravel.svg"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "url_img": "/icons/tailwindcss.svg"
+                }
+            ],
+            "source": "https://github.com/ArryPutra/indekskami"
+        },
+        {
+            "url_img": "/projects/qrcode.jpg",
+            "title": "QR Code Scanner & Generator",
+            "desc": "A system for scanning and generating QR codes efficiently with modern UI design.",
+            "type": "app",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "url_img": "/icons/flutter.svg"
+                },
+                {
+                    "name": "Dart",
+                    "url_img": "/icons/dart.svg"
+                }
+            ],
+            "source": "https://qr-code-generator-and-qr-code-scanner.en.uptodown.com/android"
+        },
+        {
+            "url_img": "/projects/teran.jpg",
+            "title": "Teran App: Mental Health",
+            "desc": "An app that helps users share stories, track stress probability, and record personal life journals.",
+            "type": "app",
+            "technologies": [
+                {
+                    "name": "Kotlin",
+                    "url_img": "/icons/kotlin.svg"
+                },
+                {
+                    "name": "Android",
+                    "url_img": "/icons/android.svg"
+                }
+            ],
+            "source": "https://github.com/Teran-Capstone-Project/Teran-Mobile-Development"
+        }
+    ]
+}
