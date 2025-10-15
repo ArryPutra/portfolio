@@ -10,7 +10,10 @@ import React, { useEffect, useRef, useState } from 'react'
 
 export default function Projects() {
     const t = useTranslations('projects')
+
     const [projectSelected, setProjectSelected] = useState('all');
+    const [checkMobile, setCheckMobile] = useState(false);
+
     const types = ['all', 'web', 'app'];
 
     const firstRender = useRef(true);
@@ -25,6 +28,8 @@ export default function Projects() {
 
     useEffect(() => {
         firstRender.current = false;
+
+        window.innerWidth < 768 ? setCheckMobile(true) : setCheckMobile(false);
     });
 
     interface ProjectCard {
@@ -68,7 +73,8 @@ export default function Projects() {
                 {
                     filteredProjects.map((project: ProjectCard, index: number) => (
                         <Transition key={index}
-                            delay={firstRender.current ? 1 + index * 0.25 : 0}>
+                            delay={firstRender.current && !checkMobile
+                                ? 1 + index * 0.25 : 0}>
                             <Card
                                 urlImg={project.url_img}
                                 title={project.title}
