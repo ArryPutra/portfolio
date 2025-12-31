@@ -28,7 +28,7 @@ export default function Button({ children, className, onClick, href, variant = "
         );
     } else {
         return (
-            <button onClick={onClick} className={baseClass}>
+            <button suppressHydrationWarning onClick={onClick} className={baseClass}>
                 {children}
             </button>
         );
