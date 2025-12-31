@@ -22,7 +22,8 @@
                     "name": "Tailwind CSS",
                     "url_img": "/icons/tailwindcss.svg"
                 }
-            ]
+            ],
+            "source": "https://github.com/ArryPutra/indekskami"
         },
         {
             "url_img": "/projects/qrcode.jpg",
@@ -38,7 +39,8 @@
                     "name": "Dart",
                     "url_img": "/icons/dart.svg"
                 }
-            ]
+            ],
+            "source": "https://qr-code-generator-and-qr-code-scanner.en.uptodown.com/android"
         },
         {
             "url_img": "/projects/teran.jpg",
@@ -54,7 +56,8 @@
                     "name": "Android",
                     "url_img": "/icons/android.svg"
                 }
-            ]
+            ],
+            "source": "https://github.com/Teran-Capstone-Project/Teran-Mobile-Development"
         }
     ]
 }
