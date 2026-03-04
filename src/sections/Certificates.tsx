@@ -46,7 +46,7 @@ function Card({ urlImg, title, desc, alt, source }: {
     const t = useTranslations('certificates');
 
     return (
-        <div className='w-full border-2 h-46 border-primary/10 bg-gradient-to-br from-bg to-primary/5
+        <div className='w-full border-2 md:h-46 border-primary/10 bg-gradient-to-br from-bg to-primary/5
         flex rounded-2xl overflow-hidden min-h-fit hover:-translate-y-0.5 hover:translate-x-0.5 duration-500
         hover:shadow-md cursor-pointer max-md:flex-col'>
             <Image
