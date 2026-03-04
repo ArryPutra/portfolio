@@ -11,14 +11,6 @@ export default function Certificates() {
 
     const cards = t.raw('cards');
 
-    interface CertificateCard {
-        url_img: string
-        title: string
-        desc: string
-        alt: string
-        source: string
-    }
-
     return (
         <Section>
             <Pattern className='-right-10 -top-16' />
@@ -29,9 +21,9 @@ export default function Certificates() {
                 <p className='mt-2'>{t("desc")}</p>
             </Transition>
 
-            <div>
+            <div className='space-y-8 mt-12'>
                 {
-                    cards.map((card: CertificateCard, index: number) => (
+                    cards.map((card: any, index: number) => (
                         <Transition key={index} delay={0.75}>
                             <Card
                                 urlImg={card.url_img}
@@ -54,9 +46,9 @@ function Card({ urlImg, title, desc, alt, source }: {
     const t = useTranslations('certificates');
 
     return (
-        <div className='w-full border-2 border-primary/10 bg-gradient-to-br from-bg to-primary/5
+        <div className='w-full border-2 h-46 border-primary/10 bg-gradient-to-br from-bg to-primary/5
         flex rounded-2xl overflow-hidden min-h-fit hover:-translate-y-0.5 hover:translate-x-0.5 duration-500
-        hover:shadow-md cursor-pointer max-md:flex-col mt-8'>
+        hover:shadow-md cursor-pointer max-md:flex-col'>
             <Image
                 src={urlImg}
                 width={1080}
@@ -64,14 +56,14 @@ function Card({ urlImg, title, desc, alt, source }: {
                 alt={alt}
                 className="h-auto w-64 max-md:w-full object-cover"
             />
-            <div className='p-5 w-full flex flex-col gap-2 h-fit'>
+            <div className='p-5 w-full flex flex-col justify-between gap-2 h-full'>
                 <div>
                     <h1 className='font-semibold text-xl'>{title}</h1>
                     <p className='text-sm mb-2'>
                         {desc}
                     </p>
                 </div>
-                <div className='h-full'>
+                <div>
                     <Button variant='secondary' href={source}>
                         {t("view_source")}
                         <i className='bx bx-arrow-up-right-stroke text-xl'></i>

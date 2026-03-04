@@ -4,15 +4,25 @@
         "part_2": " Kerja"
     },
     "desc": "Dengan keterampilan yang saya miliki, saya memiliki pengalaman kerja yang relevan dengan bidang keahlian saya.",
-    "work": {
-        "work_1": {
+    "works": [
+        {
             "place": "Dinas Komunikasi dan Informatika Provinsi Kalimantan Selatan",
             "work_type": "Magang",
-            "position": "Web Developer",
+            "position": "Full Stack Web Developer",
             "desc": "Mengembangkan sistem evaluasi dan pemantauan keamanan informasi berbasis web untuk instansi pemerintah daerah di Kalimantan Selatan menggunakan Laravel, Tailwind CSS, dan Alpine.js selama magang di Dinas Komunikasi dan Informatika Provinsi Kalimantan Selatan.",
             "start": "2024-09",
-            "end": "2025-01"
+            "end": "2025-01",
+            "image": "/diskominfo.png"
+        },
+        {
+            "place": "Balai Penjaminan Mutu Pendidikan Provinsi Kalimantan Selatan",
+            "work_type": "Magang",
+            "position": "Staf IT",
+            "desc": "Membantu operasional IT pada instansi untuk mengelola pendidikan di Provinsi Kalimantan Selatan, seperti mengelola website, sistem informasi, mengelola data, dan membantu kebutuhan pendukung IT lainnya.",
+            "start": "2025-12",
+            "end": "2026-06",
+            "image": "/bpmp-kalsel.png"
         }
-    },
+    ],
     "months": "Bulan"
 }

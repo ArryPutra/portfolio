@@ -8,6 +8,8 @@ import React from 'react'
 export default function Work() {
     const t = useTranslations("works");
 
+    const works = t.raw("works");
+
     return (
         <Section id='experience'>
             <div className='flex flex-col gap-2 mb-8 relative'>
@@ -20,28 +22,38 @@ export default function Work() {
                 </Transition>
             </div>
 
-            <Transition delay={0.75}>
-                <Card
-                    place={t("work.work_1.place")}
-                    workType={t("work.work_1.work_type")}
-                    position={t("work.work_1.position")}
-                    desc={t("work.work_1.desc")}
-                    start={t("work.work_1.start")}
-                    end={t("work.work_1.end")} />
-            </Transition>
+            <div className='space-y-8'>
+                {
+                    works.map((work: any, index: number) => (
+                        <Transition delay={0.75} key={index}>
+                            <Card
+                                place={work.place}
+                                workType={work.work_type}
+                                position={work.position}
+                                desc={work.desc}
+                                start={work.start}
+                                end={work.end}
+                                image={work.image} />
+                        </Transition>
+                    ))
+                }
+
+            </div>
         </Section>
     )
 }
 
-function Card({ place, workType, position, desc, start, end }:
+function Card({ place, workType, position, desc, start, end, image }:
     {
         place: string,
         workType: string,
         position: string,
         desc: string,
         start: string,
-        end: string
+        end: string,
+        image: string
     }) {
+
     const t = useTranslations("works");
 
     const convertDate = (date: string) => {
@@ -55,10 +67,11 @@ function Card({ place, workType, position, desc, start, end }:
 
     return (
         <div className='border-2 border-primary/10 p-5 rounded-xl bg-gradient-to-br
-            from-bg to-primary/5 hover:shadow-lg duration-500 cursor-pointer'>
+            from-bg to-primary/5 hover:shadow-lg duration-500 cursor-pointer w-full'>
             <div className='flex gap-4 items-center max-sm:flex-col max-sm:items-start'>
-                <Image src="/diskominfo.png" width={60} height={60} alt='Diskominfo Logo'
-                    className='border-2 border-primary/10 p-2 rounded-xl' />
+                <Image src={image} width={60} height={60} alt='Logo'
+                    className='border-2 border-primary/10 p-2 min-h-[60px] min-w-[60px] 
+                    object-cover rounded-xl' />
                 <div>
                     <h1 className='text-lg font-semibold'>{place}</h1>
                     <h2>{workType} - {position}</h2>

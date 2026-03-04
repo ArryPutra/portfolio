@@ -1,13 +1,13 @@
 "use client";
 import Button from '@/components/Button';
-import { useTranslations } from 'next-intl'
-import Image from 'next/image';
-import Transition from '@/components/Transition';
-import { usePathname } from 'next/navigation';
-import Link from 'next/link';
-import Section from '@/layouts/Section';
-import Title from '@/components/Title';
 import Pattern from '@/components/Pattern';
+import Title from '@/components/Title';
+import Transition from '@/components/Transition';
+import Section from '@/layouts/Section';
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Home() {
     const t = useTranslations("home");
@@ -23,15 +23,18 @@ export default function Home() {
                 <Transition isAnimate={true}>
                     <Title part1={t("title.part_1")} part2={t("title.part_2")} />
                 </Transition>
+                <Transition isAnimate={true} delay={0.15}>
+                    <h1 className='text-4xl font-bold'>Arry Kusuma Putra</h1>
+                </Transition>
 
                 <Transition isAnimate={true} delay={0.25}>
-                    <h1 className='text-3xl font-bold h-9 overflow-hidden' >
-                        <div className='flex flex-col animate-roles'>
+                    <h2 className='text-3xl font-bold h-9 overflow-hidden' >
+                        <div className='flex flex-col animate-roles bg-gradient-to-br from-primary to-primary/90 bg-clip-text text-transparent leading-9'>
                             <span>Web Developer</span>
                             <span>Mobile Developer</span>
                             <span>UI Designer</span>
                         </div>
-                    </h1>
+                    </h2>
                 </Transition>
                 <Transition isAnimate={true} delay={0.5}>
                     <p>{t("desc")}</p>
