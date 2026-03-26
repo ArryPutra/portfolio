@@ -43,21 +43,21 @@
             "source": "https://qr-code-generator-and-qr-code-scanner.en.uptodown.com/android"
         },
         {
-            "url_img": "/projects/teran.jpg",
-            "title": "Aplikasi Teran: Mental Health",
-            "desc": "Aplikasi yang membantu Anda berbagi cerita, melihat probabilitas stres, dan mencatat jurnal kehidupan Anda.",
+            "url_img": "/projects/finote.jpg",
+            "title": "Finote: Catatan Keuangan Digital",
+            "desc": "Finote adalah aplikasi manajemen keuangan dengan mendukung multi-akun, multi-mata uang, serta analisis pengeluaran berbasis visual.",
             "type": "app",
             "technologies": [
                 {
-                    "name": "Kotlin",
-                    "url_img": "/icons/kotlin.svg"
+                    "name": "Flutter",
+                    "url_img": "/icons/flutter.svg"
                 },
                 {
-                    "name": "Android",
-                    "url_img": "/icons/android.svg"
+                    "name": "Dart",
+                    "url_img": "/icons/dart.svg"
                 }
             ],
-            "source": "https://github.com/Teran-Capstone-Project/Teran-Mobile-Development"
+            "source": "https://play.google.com/store/apps/details?id=app.kodeari.finote"
         }
     ]
 }
