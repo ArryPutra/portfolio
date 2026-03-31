@@ -12,7 +12,7 @@ const poppins = Poppins({
 });
 
 const PERSON_NAME = "Arry Kusuma Putra";
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://arryputra.vercel.app";
 
 export async function generateMetadata({
   params,
