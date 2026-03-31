@@ -74,6 +74,9 @@ export async function generateMetadata({
         "max-video-preview": -1,
       },
     },
+    verification: {
+      google: "75d7Wy5QYkwlp_6BR63gQTWVFtW1kJuA3LzceXNSEvE"
+    }
   };
 }
 
