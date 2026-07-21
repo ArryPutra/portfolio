@@ -119,7 +119,7 @@ function Card({ urlImg, title, desc, technologies, source }: {
                         technologies.map((tech, index) => (
                             <div key={index} className='border py-2 px-3 flex gap-2 text-sm w-fit rounded-xl border-primary/10
                     hover:bg-primary/5 duration-200 h-fit mt-4'>
-                                <Image src={tech.url_img} width={20} height={20} alt="Laravel Icon" />
+                                <Image className={tech.url_img === "/icons/nextjs.svg" ? 'dark:invert' : ""} src={tech.url_img} width={20} height={20} alt={tech.name} />
                                 <span className='font-medium'>{tech.name}</span>
                             </div>
                         ))

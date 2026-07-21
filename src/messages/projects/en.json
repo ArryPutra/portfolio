@@ -26,21 +26,20 @@
             "source": "https://github.com/ArryPutra/indekskami"
         },
         {
-            "url_img": "/projects/qrcode.jpg",
-            "title": "QR Code Scanner & Generator",
-            "desc": "A system for scanning and generating QR codes efficiently with modern UI design.",
-            "type": "app",
+            "url_img": "/projects/tautku.jpg",
+            "title": "Tautku: URL Shortener",
+            "desc": "SaaS platform for URL shortening and link monetization featuring smart links and real-time click tracking analytics.",
             "technologies": [
                 {
-                    "name": "Flutter",
-                    "url_img": "/icons/flutter.svg"
+                    "name": "Next.js",
+                    "url_img": "/icons/nextjs.svg"
                 },
                 {
-                    "name": "Dart",
-                    "url_img": "/icons/dart.svg"
+                    "name": "TypeScript",
+                    "url_img": "/icons/typescript.svg"
                 }
             ],
-            "source": "https://qr-code-generator-and-qr-code-scanner.en.uptodown.com/android"
+            "source": "https://tautku.com"
         },
         {
             "url_img": "/projects/finote.jpg",

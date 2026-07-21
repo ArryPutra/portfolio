@@ -26,21 +26,20 @@
             "source": "https://github.com/ArryPutra/indekskami"
         },
         {
-            "url_img": "/projects/qrcode.jpg",
-            "title": "QR Code Scanner & Generator",
-            "desc": "Sistem untuk melakukan evaluasi indeks keamanan informasi pada suatu instansi di pemerintahan Kalimantan Selatan.",
-            "type": "app",
+            "url_img": "/projects/tautku.jpg",
+            "title": "Tautku: Pemendek URL",
+            "desc": "Platform SaaS pemendek URL dan monetisasi tautan dengan fitur smart links dan analitik click tracking real-time.",
             "technologies": [
                 {
-                    "name": "Flutter",
-                    "url_img": "/icons/flutter.svg"
+                    "name": "Next.js",
+                    "url_img": "/icons/nextjs.svg"
                 },
                 {
-                    "name": "Dart",
-                    "url_img": "/icons/dart.svg"
+                    "name": "TypeScript",
+                    "url_img": "/icons/typescript.svg"
                 }
             ],
-            "source": "https://qr-code-generator-and-qr-code-scanner.en.uptodown.com/android"
+            "source": "https://tautku.com"
         },
         {
             "url_img": "/projects/finote.jpg",
