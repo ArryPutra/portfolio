@@ -15,9 +15,18 @@ export default function Home() {
     const isEnPath = usePathname() === "/en";
 
     return (
-        <Section className='min-h-screen pt-24 flex items-center justify-between gap-16 
+        <Section className='min-h-screen pt-24 flex items-center justify-between gap-16 relative isolate
         max-lg:flex-col max-lg:gap-8 max-lg:items-start'
             parentClassName='bg-gradient-to-br from-bg to-primary/5' id='home'>
+            <div
+                aria-hidden='true'
+                className='absolute inset-0 -z-10 pointer-events-none'
+                style={{
+                    backgroundImage: `linear-gradient(to right, color-mix(in srgb, var(--color-primary) 7%, transparent) 1px, transparent 1px), linear-gradient(to bottom, color-mix(in srgb, var(--color-primary) 7%, transparent) 1px, transparent 1px)`,
+                    backgroundSize: '48px 48px',
+                    maskImage: 'radial-gradient(ellipse at center, black 10%, transparent 78%)',
+                }}
+            />
             <div className='flex flex-col gap-1.5 relative lg:w-1/2'>
                 <Pattern className='-left-10 -top-16' />
                 <Transition isAnimate={true}>

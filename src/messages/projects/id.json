@@ -57,6 +57,23 @@
                 }
             ],
             "source": "https://play.google.com/store/apps/details?id=app.kodeari.finote"
+        },
+        {
+            "url_img": "/projects/jedain.jpg",
+            "title": "JedaIn: Stop Doomscrolling",
+            "desc": "JedaIn membantu pengguna mengurangi doomscrolling melalui pemantauan waktu layar dan pengingat istirahat.",
+            "type": "app",
+            "technologies": [
+                {
+                    "name": "Kotlin",
+                    "url_img": "/icons/kotlin.svg"
+                },
+                {
+                    "name": "Compose",
+                    "url_img": "/icons/jetpack-compose.svg"
+                }
+            ],
+            "source": "https://play.google.com/store/apps/details?id=com.jedain.app"
         }
     ]
 }
