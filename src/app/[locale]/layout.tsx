@@ -1,4 +1,5 @@
 import "@/app/globals.css";
+import CustomCursor from "@/components/CustomCursor";
 import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
@@ -124,7 +125,10 @@ export default async function RootLayout({
       </head>
       <body className={`${poppins.className} antialiased`}>
         <NextIntlClientProvider>
-          <ThemeProvider attribute="data-theme" defaultTheme="system" enableSystem>{children}</ThemeProvider>
+          <ThemeProvider attribute="data-theme" defaultTheme="system" enableSystem>
+            <CustomCursor />
+            {children}
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
